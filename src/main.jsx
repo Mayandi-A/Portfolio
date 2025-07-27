@@ -5,6 +5,8 @@ import './index.css';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <div className="max-w-screen overflow-x-hidden">
     <App />
+    </div>
   </StrictMode>,
 );

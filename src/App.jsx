@@ -10,10 +10,9 @@ import NotFound from "@/pages/not-found";
 function Router() {
   return (
     <Switch>
-      <div className="max-w-screen overflow-x-hidden">
+      
           <Route path="/" component={Home} />
           <Route component={NotFound} />
-      </div> 
     </Switch>
   );
 }
